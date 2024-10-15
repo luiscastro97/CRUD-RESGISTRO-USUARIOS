@@ -1,0 +1,108 @@
+body {
+    background-image: url('/assets/fondo2.jpg');
+}
+
+h1{
+    font-family: 'Poppins', sans-serif; /* Cambia a 'Lora', serif si prefieres */
+    color: #4a90e2; /* Color del título */
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+h2{
+    
+    font-family: 'Poppins', sans-serif; /* Cambia a 'Lora', serif si prefieres */
+    color: #4a90e2; /* Color del título */
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 20px;
+    
+    
+}
+
+
+/* Estilo para el contenedor del formulario */
+form {
+    background-color: #f7f9fc; /* Fondo claro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin-bottom: 20px;
+}
+
+/* Estilo para los labels del formulario */
+form label {
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+}
+
+/* Estilo para los inputs del formulario */
+form input {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+/* Estilo para el botón de enviar */
+form button {
+    background-color: #007bff; /* Color azul */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #0056b3; /* Azul más oscuro en hover */
+}
+
+
+/* Estilo para la tabla completa */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilo para las celdas */
+.table th, .table td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Encabezado de la tabla */
+.table th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Estilo para las filas alternas */
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Botones de la tabla */
+.table button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    font-size: 0.9em;
+}
+
+.table .btn-warning {
+    background-color: #ffc107;
+    color: #fff;
+    border: none;
+}
+
+.table .btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+}
+
